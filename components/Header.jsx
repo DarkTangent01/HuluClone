@@ -8,6 +8,7 @@ import {
   SearchIcon,
   UserIcon,
 } from "@heroicons/react/outline";
+import huluIcon from '../assets/hulu-white.png'
 
 const Header = () => {
   return (
@@ -22,7 +23,7 @@ const Header = () => {
       </div>
       <Image
         className="object-contain"
-        src="https://links.papareact.com/ua6"
+        src={huluIcon}
         width={200}
         height={100}
         alt="hero"
