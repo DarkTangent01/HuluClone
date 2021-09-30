@@ -3,12 +3,13 @@ import requests from "../utils/requests";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import Results from "../components/Results";
+import Footer from "../components/Footer";
 
 export default function Home({ results }) {
   return (
     <div className="">
       <Head>
-        <title>Hulu</title>
+        <title>Stream TV and Movies Live and Online | hulu</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* Header */}
@@ -19,6 +20,9 @@ export default function Home({ results }) {
 
       {/* Results */}
       <Results results={results} />
+
+      {/* Footer */}
+      <Footer/>
     </div>
   );
 }
